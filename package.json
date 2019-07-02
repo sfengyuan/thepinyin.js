@@ -1,0 +1,27 @@
+{
+  "name": "thepinyin.js",
+  "version": "1.0.0",
+  "description": "A lib that converts Chinese characters to Chinese pinyin",
+  "main": "dist/umd/main.js",
+  "scripts": {
+    "build": "rimraf dist/umd/* && rimraf dist/web/* && rollup -c",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^24.8.0",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.16.2",
+    "rollup-plugin-terser": "^5.0.0"
+  },
+  "author": "Jacob.sun.meta@gmail.com",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jacobsun/thepinyin.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jacobsun/thepinyin.js/issues"
+  }
+}
