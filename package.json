@@ -1,6 +1,6 @@
 {
   "name": "thepinyin.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lib that converts Chinese characters to Chinese pinyin",
   "main": "dist/umd/main.js",
   "module": "src/main",
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/jacobsun/thepinyin.js/issues"
   },
-  "keywords": ["pinyin", "Chinese"]
+  "keywords": [
+    "pinyin",
+    "Chinese"
+  ]
 }
