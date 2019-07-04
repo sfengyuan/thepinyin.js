@@ -50,7 +50,7 @@ pinyinjs.isMulti = function (char) {
   return Array.isArray(dict[char])
 }
 function replaceVowels (char, style) {
-  let tone
+  let tone = ''
   char = char.split('').map(letter => {
     let v = pinyinjs['VOWELS'][letter]
     if (v) {
