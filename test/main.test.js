@@ -17,6 +17,10 @@ test('Multi-pronunciation', () => {
   expect(py.py('写中文')).toEqual(['xiě', ['zhōng', 'zhòng'], 'wén'])
 })
 
+test('Auto flatten Single Multi-pronunciation Character', () => {
+  expect(py.py('万', py.NOMARK)).toEqual(['wan', 'mo'])
+})
+
 test('Initials', () => {
   expect(py.py('写中文', py.DEFAULT, py.INITIAL)).toEqual(['x', ['z', 'z'], 'w'])
 })

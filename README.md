@@ -5,11 +5,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-
-
-
-
-
 [EN README](https://github.com/jacobsun/thepinyin.js/blob/master/README_EN.md)
 
 基于pinyin4js的词库, 覆盖了46个"异体字", 这些字大部分是韩国汉字, 和制汉字, 和合成字如'兛': 'qiānkè', 它是有标准读音的, 只是这个字不再使用了.
@@ -18,17 +13,6 @@
 
 不支持分词, 因web使用需要考虑体积问题, 而准确率无法保证, 故不划算.
 
-## 对比
-
-与pinyin4js对比, 转换一本红楼梦(2.4Mb) 3次取平均值.
-
-|   | thePyinyin.js | pinyin4js |
-|:-:|:-:|:-:|
-| 耗时 | 2103 ms | 9832 ms |
-| 体积 | 299 Kb | 353 Kb |
-
-
-注: 本库直接返回数组, 而不是字符串, 避免使用者还需要再次处理字符串才能提取拼音.
 
 ## 安装:
 

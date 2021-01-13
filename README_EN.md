@@ -13,16 +13,6 @@ To Korean Hanzi, Japanese Hanzi, the common pinyin will be used.
 
 Does't support word-cut, since we have to mind the size of the files in web, and the result of word-cut is not accurate, so that is not a good deal.
 
-## Compare
-
-Comparing with pinyin4js, transform a complete book, Dream of the Red Chamber (2.4MB), 3 times to average time.
-
-|   | thePyinyin.js | pinyin4js |
-|:-:|:-:|:-:|
-| time | 2103 ms | 9832 ms |
-| size | 299 Kb | 353 Kb |
-Note: this lib return array not string to avoid extra jobs to get individual pinyin from string.
-
 ## Install
 
 NPM

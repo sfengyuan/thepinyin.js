@@ -33,14 +33,14 @@ const pinyinjs = {
   }
 }
 
-pinyinjs.py = function (str, style, rule) {
+pinyinjs.py = function (input, style, rule) {
   style = !style ? pinyinjs.DEFAULT : style
   rule = !rule ? pinyinjs.DEFAULT : rule
-  let pinyin = str.split('').map(char => dict[char]).filter(py => !!py)
+  let pinyin = input.split('').map(char => dict[char]).filter(py => !!py)
   if (pinyin.length === 0 || (rule === pinyinjs.DEFAULT && style === pinyinjs.DEFAULT)) {
-    return pinyin
+    return tryFlatten(pinyin)
   }
-  return transform(pinyin, style, rule)
+  return tryFlatten(transform(pinyin, style, rule))
 }
 
 pinyinjs.isMulti = function (char) {
@@ -49,6 +49,14 @@ pinyinjs.isMulti = function (char) {
   }
   return Array.isArray(dict[char])
 }
+
+function tryFlatten (arr) {
+  if (arr.length === 1 && Array.isArray(arr[0])) {
+    return arr[0]
+  }
+  return arr
+}
+
 function replaceVowels (char, style) {
   let tone = ''
   char = char.split('').map(letter => {
