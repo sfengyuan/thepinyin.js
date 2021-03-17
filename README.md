@@ -1,15 +1,15 @@
 # thePinyin.js
-[![Build Status](https://travis-ci.com/jacobsun/thepinyin.js.svg?branch=master)](https://travis-ci.com/jacobsun/thepinyin.js)
-[![codecov](https://codecov.io/gh/jacobsun/thepinyin.js/branch/master/graph/badge.svg)](https://codecov.io/gh/jacobsun/thepinyin.js)
-[![codebeat badge](https://codebeat.co/badges/2ac8c218-6509-45b9-8078-2de3d5e75945)](https://codebeat.co/projects/github-com-jacobsun-thepinyin-js-master)
+
+[![codecov](https://codecov.io/gh/sfengyuan/thepinyin.js/branch/master/graph/badge.svg)](https://codecov.io/gh/sfengyuan/thepinyin.js)
+[![codebeat badge](https://codebeat.co/badges/2ac8c218-6509-45b9-8078-2de3d5e75945)](https://codebeat.co/projects/github-com-sfengyuan-thepinyin-js-master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-[EN README](https://github.com/jacobsun/thepinyin.js/blob/master/README_EN.md)
+[EN README](https://github.com/sfengyuan/thepinyin.js/blob/master/README_EN.md)
 
 基于pinyin4js的词库, 覆盖了46个"异体字", 这些字大部分是韩国汉字, 和制汉字, 和合成字如'兛': 'qiānkè', 它是有标准读音的, 只是这个字不再使用了.
 
-而对于韩国汉字, 和制汉字使用约定俗成的拼音.
+对于韩国汉字, 和制汉字使用约定俗成的拼音.
 
 不支持分词, 因web使用需要考虑体积问题, 而准确率无法保证, 故不划算.
 
@@ -20,7 +20,7 @@ NPM
 `npm install thepinyin.js`
 
 web
-`<script src="https://unpkg.com/thepinyin.js@1.0.0/dist/umd/main.js"></script>`
+`<script src="https://unpkg.com/thepinyin.js@1.0.4/dist/umd/main.js"></script>`
 
 ## 使用
 

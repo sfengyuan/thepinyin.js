@@ -1,4 +1,4 @@
-import { dict } from './_dict'
+import { dict } from './_dict.js'
 
 const pinyinjs = {
   'DEFAULT': 'DEFAULT',

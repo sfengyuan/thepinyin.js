@@ -1,10 +1,10 @@
 # thePinyin.js
-[![Build Status](https://travis-ci.com/jacobsun/thepinyin.js.svg?branch=master)](https://travis-ci.com/jacobsun/thepinyin.js)
-[![codecov](https://codecov.io/gh/jacobsun/thepinyin.js/branch/master/graph/badge.svg)](https://codecov.io/gh/jacobsun/thepinyin.js)
-[![codebeat badge](https://codebeat.co/badges/2ac8c218-6509-45b9-8078-2de3d5e75945)](https://codebeat.co/projects/github-com-jacobsun-thepinyin-js-master)
+
+[![codecov](https://codecov.io/gh/sfengyuan/thepinyin.js/branch/master/graph/badge.svg)](https://codecov.io/gh/sfengyuan/thepinyin.js)
+[![codebeat badge](https://codebeat.co/badges/2ac8c218-6509-45b9-8078-2de3d5e75945)](https://codebeat.co/projects/github-com-sfengyuan-thepinyin-js-master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[中文文档](https://github.com/jacobsun/thepinyin.js/blob/master/README.md)
+[中文文档](https://github.com/sfengyuan/thepinyin.js/blob/master/README.md)
 
 Based on the dictionary of pinyin4js, include 46 "异体字",
 Those are Korean Hanzi, Japanese Hanzi and compound Hanzi, e.g. '兛': 'qiānkè', they have standard pinyin, they just not used nowdays.
@@ -19,7 +19,7 @@ NPM
 `npm install thepinyin.js`
 
 web
-`<script src="https://unpkg.com/thepinyin.js@1.0.0/dist/umd/main.js"></script>`
+`<script src="https://unpkg.com/thepinyin.js@1.0.4/dist/umd/main.js"></script>`
 
 
 ## Usage
