@@ -6,7 +6,8 @@
   "module": "dist/es/index.js",
   "scripts": {
     "build": "rimraf dist/umd/* && rimraf dist/iife/* && rimraf dist/es/* && rollup -c",
-    "test": "jest"
+    "test": "jest",
+    "publish": "npm publish --registry http://registry.npmjs.org"
   },
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
