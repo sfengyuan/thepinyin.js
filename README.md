@@ -16,11 +16,11 @@
 
 ## 安装:
 
-NPM
+Node.js
 `npm install thepinyin.js`
 
 web
-`<script src="https://unpkg.com/thepinyin.js@1.0.4/dist/umd/main.js"></script>`
+`<script src="https://unpkg.com/thepinyin.js@1.0.5/dist/umd/main.js"></script>`
 
 ## 使用
 
@@ -30,7 +30,7 @@ import pinyinjs from 'thepinyin.js'
 
 const pinyinjs = require('thepinyin.js')
 
-// or scrits
+// or scripts
 
 
 pinyinjs.py('texts 123') // []

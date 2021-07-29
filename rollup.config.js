@@ -3,7 +3,18 @@ export default [
   {
     input: 'src/main.js',
     output: {
-      file: 'dist/web/index.js',
+      file: 'dist/es/index.js',
+      format: 'es',
+      name: 'pinyinjs'
+    },
+    plugins: [
+      terser()
+    ]
+  },
+  {
+    input: 'src/main.js',
+    output: {
+      file: 'dist/iife/index.js',
       format: 'iife',
       name: 'pinyinjs'
     },
